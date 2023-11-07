@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: nit;
+    /* width: 100vw; */
+    background-color: rgb(231, 229, 229);
+}
+@font-face {
+    font-family: nit;
+    src: url(American\ Captain.ttf);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    text-align: center; 
+  }
+  
+div h1{
+  font-size: 85px;
+}
+
+div h1 span{
+    color: orange;
+  }
+
+  div h3 span{
+    color: orange;
+  }
+div h3{
+    font-size: 65px;
+}
+
+.image img{
+  width: 250px;
+}
